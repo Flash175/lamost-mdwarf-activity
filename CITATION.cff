@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "M-dwarf chromospheric activity as a statistical tracer of Galactic height and dynamical heating in LAMOST DR13"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Liang"
+    given-names: "Siyu"
+version: 1.0.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/Flash175/lamost-mdwarf-activity"
+keywords:
+  - M dwarfs
+  - chromospheric activity
+  - H-alpha equivalent width
+  - LAMOST DR13
+  - Galactic height
+  - dynamical heating
