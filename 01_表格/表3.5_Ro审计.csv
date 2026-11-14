@@ -1,0 +1,6 @@
+﻿# §3.5：Ro = P_rot/tau_c 的构造审计（tau_c 由 P/Ro 反推；m_med 为质量中位，M_sun）
+# tau_c 中位 33 d、范围 15.5-78.1 d；Ro 与 sRo 与冻结表一致
+# 生成：复现流程/复现流程3.5/step1_sample.py（代码/repro_3p5_sample.py）
+panel,n,tau_med,tau_min,tau_max,ro_min,ro_max,ro_med,sro_over_ro,m_med
+dM0-dM3,2024,26.8584,15.6244,67.9225,0.0053,2.1107,0.092,0.125,0.5419
+dM4-dM6,1119,54.1729,16.0013,78.2703,0.002,1.324,0.0269,0.125,0.3701

@@ -1,0 +1,17 @@
+﻿bin,quantity,printed_pp,computed_pp,printed_share_pct,computed_share_pct,status
+100-200,Spectral subtype (F1),1.78,1.782,16.3,16.32,PASS
+100-200,Teff (F2),0.86,0.8642,7.9,7.91,PASS
+100-200,log g (F3),0.13,0.1296,1.2,1.19,PASS
+100-200,[Fe/H] (F4),0.05,0.0485,0.4,0.44,PASS
+100-200,Measurement channel (F5+F6),0.58,0.5807,5.3,5.32,PASS
+100-200,Explained (sum),3.41,3.405,31.2,31.18,PASS
+100-200,Observed decline,10.92,10.9219,100.0,100.0,PASS
+100-200,Unexplained,7.52,7.5169,68.8,68.82,PASS
+200-400,Spectral subtype (F1),2.63,2.6278,16.3,16.34,PASS
+200-400,Teff (F2),1.99,1.9926,12.4,12.39,PASS
+200-400,log g (F3),0.32,0.3189,2.0,1.98,PASS
+200-400,[Fe/H] (F4),0.16,0.1565,1.0,0.97,PASS
+200-400,Measurement channel (F5+F6),1.06,1.0602,6.6,6.59,PASS
+200-400,Explained (sum),6.16,6.156,38.3,38.27,PASS
+200-400,Observed decline,16.09,16.0862,100.0,100.0,PASS
+200-400,Unexplained,9.93,9.9303,61.7,61.73,PASS

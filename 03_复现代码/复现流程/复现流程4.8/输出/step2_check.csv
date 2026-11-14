@@ -1,0 +1,33 @@
+﻿item,body,computed,diff,status
+"raw pilot spectra (6,111)",6111,6111.0,0.0,PASS
+raw chi-square (29.8),29.8,29.8275,0.0275,PASS
+raw dof (6),6,6.0,0.0,PASS
+raw p value (4e-5),4.0,4.2,0.2,PASS
+K7 raw (3.9 %),3.9,3.927,0.027,PASS
+K4 raw (2.9 %),2.9,2.92,0.02,PASS
+K1 raw (1.1 %),1.1,1.06,-0.04,PASS
+"cleaned pilot spectra (5,047)",5047,5047.0,0.0,PASS
+cleaned Teff bins (16),16,16.0,0.0,PASS
+"cleaned bins cover all spectra (5,047)",5047,5047.0,0.0,PASS
+cleaned max bin fraction (4.3 %),4.3,4.3367,0.0367,PASS
+cleaned min bin fraction (0.0 %),0.0,0.0,0.0,PASS
+no monotonic trend: Spearman rho (-0.11),-0.11,-0.1074,0.0026,PASS
+no monotonic trend: Spearman p (0.69),0.69,0.6921,0.0021,PASS
+median EW K0 (-1.01 A),-1.01,-1.0143,-0.0043,PASS
+median EW K7 (-0.27 A),-0.27,-0.2737,-0.0037,PASS
+median EW negative for every subtype,<0,-0.2737,,PASS
+90th percentile below +0.09 A,0.09,0.0878,-0.0022,PASS
+0.75 A criterion passes 0 per cent (minimum),0.0,0.0,0.0,PASS
+0.75 A criterion passes 3.9 per cent (maximum),3.9,3.9269,0.0269,PASS
+dM5 per spectrum (58.0),58.0,58.0084,0.0084,PASS
+dM5 per star (57.8),57.8,57.8118,0.0118,PASS
+dM5 per star with 2D cuts (56.8),56.8,56.771,-0.029,PASS
+dM7 per spectrum (69.9),69.9,69.9476,0.0476,PASS
+dM7 per star (70.9),70.9,70.8601,-0.0399,PASS
+dM7 per star with 2D cuts (73.3),73.3,73.2535,-0.0465,PASS
+selection G minimum (14),14.0,14.0039,0.0039,PASS
+selection G maximum (18),18.0,17.9983,-0.0017,PASS
+selection S/N maximum (30),30.0,30.0,0.0,PASS
+"selection Teff minimum (3,900 K)",3900.0,3900.78,0.78,PASS
+"selection Teff maximum (5,500 K)",5500.0,5494.4,-5.6,PASS
+selection log g above 3.8,>3.8,4.001,,PASS

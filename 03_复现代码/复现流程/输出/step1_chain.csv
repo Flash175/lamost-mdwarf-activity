@@ -1,0 +1,10 @@
+﻿step,remaining,unit,removed,note
+1,1022559,spectra,,DR13 dM catalogue
+2,1018728,spectra,3831.0,"ewha in (-20,50]"
+3,1016104,spectra,2624.0,"ewha_err in (0,5]"
+4,997156,spectra,18948.0,Gaia DR3 cross-match
+5,842150,spectra,155006.0,"parallax>0.2 mas, >5sigma, ruwe<1.4"
+6,639711,stars,,one maximum-EW spectrum per star
+7,639702,stars,9.0,|Z| <= 3 kpc (heliocentric)
+8,637973,stars,1729.0,"bright objects removed, M_G<6  (2D sample)"
+9,82518,stars,,"6D: Gaia RV, |RV|<500 km/s, |z_gc|<3 kpc"

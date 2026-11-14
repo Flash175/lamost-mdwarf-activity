@@ -1,0 +1,52 @@
+﻿item,value
+raw n,6111.0
+raw act pct,2.029128
+raw chi2,29.827462
+raw dof,6.0
+raw p,4.2e-05
+raw pct K0,1.418
+raw pct K1,1.06
+raw pct K2,0.0
+raw pct K3,1.443
+raw pct K4,2.92
+raw pct K5,1.689
+raw pct K7,3.927
+raw pct max,3.927
+raw pct min,0.0
+clean n,5047.0
+clean act pct,1.74361
+clean bins,16.0
+clean bins n,5047.0
+clean pct max,4.336735
+clean pct min,0.0
+clean spearman rho,-0.107432
+clean spearman p,0.692091
+clean pct K0,1.239669
+clean pct K1,0.995025
+clean pct K2,0.0
+clean pct K3,1.581395
+clean pct K4,1.577287
+clean pct K5,1.4174
+clean pct K7,3.278689
+ew med K0,-1.014316
+ew med K7,-0.273737
+ew med max (all negative?),-0.273737
+ew p90 max,0.087806
+frac075 min,0.0
+frac075 max,3.926941
+dM5 spec,58.008448
+dM5 star,57.811795
+dM5 2d,56.771036
+dM5 span,1.237412
+dM7 spec,69.947644
+dM7 star,70.860077
+dM7 2d,73.253493
+dM7 span,3.305849
+sel G min,14.003875
+sel G max,17.998331
+sel snr min,5.1
+sel snr max,30.0
+sel teff min,3900.78
+sel teff max,5494.4
+sel logg min,4.001
+sel logg max,4.899

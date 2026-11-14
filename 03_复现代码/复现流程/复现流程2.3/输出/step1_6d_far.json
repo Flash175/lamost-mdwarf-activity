@@ -1,0 +1,19 @@
+{
+  "n": 316,
+  "n_act": 61,
+  "n_snr_lt3_act": 34,
+  "n_logg_sentinel_act": 19,
+  "n_logg_lt35_real_act": 1,
+  "g_med_act": 13.981269,
+  "g_med_act_snr_lt3": 14.146594499999999,
+  "g_med_act_sentinel": 13.765083,
+  "mg_med_bin": 3.2311632419911884,
+  "n_mg_lt6": 290,
+  "n_mg_lt6_act": 57,
+  "mg_med_bright": 2.898209003589767,
+  "n_inact": 255,
+  "n_mg_lt6_inact": 233,
+  "dist_med_pc": 1319.4961694289937,
+  "n_postcut": 26,
+  "n_postcut_act": 4
+}

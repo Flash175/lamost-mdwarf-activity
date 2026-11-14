@@ -1,0 +1,7 @@
+﻿# §3.5 / Figure 2 图注：断点固定 Ro_sat=0.132，log R'Hα 对 log Ro 的未饱和段斜率（全部 3,340 颗）
+# err = bootstrap 16–84 百分位半宽（1,000 次，种子 20261112）
+# 生成：复现流程/复现流程3.5/step2_fits.py（代码/repro_3p5_fits.py）
+panel,n,beta,err
+dM0-dM3,819,-0.89,0.093
+dM4-dM6,187,-0.822,0.175
+all,1010,-0.857,0.079

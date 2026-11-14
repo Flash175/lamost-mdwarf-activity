@@ -1,0 +1,53 @@
+﻿item,body,computed,diff,status
+"usable [Fe/H] sample (584,029)",584029.0,584029.0,0.0,PASS
+coverage (91.5 per cent),91.5,91.5445,0.0445,PASS
+median [Fe/H] uncertainty (0.12 dex),0.12,0.12,0.0,PASS
+"active fraction, [Fe/H] subset <100 (23.29)",23.29,23.2869,-0.0031,PASS
+"active fraction, full sample <100 (23.81)",23.81,23.8065,-0.0035,PASS
+"active fraction, [Fe/H] subset 100-200 (12.57)",12.57,12.5702,0.0002,PASS
+"active fraction, full sample 100-200 (12.9)",12.9,12.9025,0.0025,PASS
+"active fraction, [Fe/H] subset 200-400 (7.51)",7.51,7.5052,-0.0048,PASS
+"active fraction, full sample 200-400 (7.78)",7.78,7.7786,-0.0014,PASS
+"active fraction, [Fe/H] subset 400-600 (6.42)",6.42,6.4235,0.0035,PASS
+"active fraction, full sample 400-600 (6.65)",6.65,6.651,0.001,PASS
+"active fraction, [Fe/H] subset 600-1000 (7.39)",7.39,7.3927,0.0027,PASS
+"active fraction, full sample 600-1000 (7.76)",7.76,7.7639,0.0039,PASS
+"active fraction, [Fe/H] subset >1000 (12.34)",12.34,12.3364,-0.0036,PASS
+"active fraction, full sample >1000 (13.24)",13.24,13.2413,0.0013,PASS
+decline in the [Fe/H] subset (15.8 pp),15.8,15.7817,-0.0183,PASS
+median [Fe/H] <100 (-0.085 dex),-0.085,-0.0846,0.0004,PASS
+median [Fe/H] 100-200 (-0.114 dex),-0.114,-0.1136,0.0004,PASS
+median [Fe/H] 200-400 (-0.154 dex),-0.154,-0.1541,-0.0001,PASS
+median [Fe/H] 400-600 (-0.201 dex),-0.201,-0.2006,0.0004,PASS
+median [Fe/H] 600-1000 (-0.203 dex),-0.203,-0.2033,-0.0003,PASS
+gradient over the first kpc (0.12 dex),0.12,0.1187,-0.0013,PASS
+linear slope (-2.3e-4 dex/pc),-0.00023,-0.0002,-0.0,PASS
+Pearson r (-0.195),-0.195,-0.195,-0.0,PASS
+top minus bottom [Fe/H] quartile <100 (5.7 pp),5.7,5.6999,-0.0001,PASS
+top minus bottom [Fe/H] quartile 100-200 (3.9 pp),3.9,3.8481,-0.0519,PASS
+top minus bottom [Fe/H] quartile 200-400 (2.7 pp),2.7,2.647,-0.053,PASS
+top minus bottom [Fe/H] quartile 400-600 (2.2 pp),2.2,2.201,0.001,PASS
+top minus bottom [Fe/H] quartile 600-1000 (0.9 pp),0.9,0.9336,0.0336,PASS
+global logistic slope (+0.588),0.588,0.5881,0.0001,PASS
+global slope error (0.020),0.02,0.0197,-0.0003,PASS
+global contribution (-0.5 pp),-0.5,-0.4992,0.0008,PASS
+Delta[Fe/H] innermost to 200-400 pc (-0.069 dex),-0.069,-0.0692,-0.0002,PASS
+fixed-effect slope (-1.51),-1.51,-1.5141,-0.0041,PASS
+fixed-effect slope error (0.024),0.024,0.0242,0.0002,PASS
+fixed-effect contribution (+1.3 pp),1.3,1.2852,-0.0148,PASS
+median [Fe/H] at dM0 (-0.21 dex),-0.21,-0.21,0.0,PASS
+median [Fe/H] at dM6 (+0.23 dex),0.23,0.231,0.001,PASS
+correlation with Teff at dM0 (+0.42),0.42,0.423,0.003,PASS
+correlation with Teff at dM5 (-0.43),-0.43,-0.433,-0.003,PASS
+per-subtype slope dM0 (0.55 dex^-1),0.55,0.5519,0.0019,PASS
+per-subtype slope dM1 (-1.52 dex^-1),-1.52,-1.5187,0.0013,PASS
+per-subtype slope dM2 (-0.83 dex^-1),-0.83,-0.8322,-0.0022,PASS
+per-subtype slope dM3 (-1.34 dex^-1),-1.34,-1.3431,-0.0031,PASS
+per-subtype slope dM4 (-2.07 dex^-1),-2.07,-2.0682,0.0018,PASS
+per-subtype slope dM5 (-2.21 dex^-1),-2.21,-2.2056,0.0044,PASS
+per-subtype slope dM6 (-4.14 dex^-1),-4.14,-4.1448,-0.0048,PASS
+per-subtype slope error at dM0 (0.07),0.07,0.0656,-0.0044,PASS
+"late-type share, metal-poor quartile (15 per cent, text rounds to integers)",15.0,15.076,0.076,PASS
+"late-type share, metal-rich quartile (69 per cent, text rounds to integers)",69.0,69.096,0.096,PASS
+"dM4 share, metal-poor quartile (13 per cent, text rounds to integers)",13.0,13.097,0.097,PASS
+"dM4 share, metal-rich quartile (46 per cent, text rounds to integers)",46.0,46.442,0.442,PASS

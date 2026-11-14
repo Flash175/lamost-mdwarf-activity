@@ -1,0 +1,48 @@
+﻿item,body,computed,diff,status
+n K0,282,282.0,0,PASS
+act % K0,1.4,1.418,0.018,PASS
+n K1,566,566.0,0,PASS
+act % K1,1.1,1.06,-0.04,PASS
+n K2,72,72.0,0,PASS
+act % K2,0.0,0.0,0.0,PASS
+n K3,1317,1317.0,0,PASS
+act % K3,1.4,1.443,0.043,PASS
+n K4,411,411.0,0,PASS
+act % K4,2.9,2.92,0.02,PASS
+n K5,2368,2368.0,0,PASS
+act % K5,1.7,1.689,-0.011,PASS
+n K7,1095,1095.0,0,PASS
+act % K7,3.9,3.927,0.027,PASS
+"total K spectra (6,111)",6111,6111.0,0,PASS
+overall act raw (2.0),2.0,2.029,0.029,PASS
+chi2 (29.8),29.8,29.828,0.027,PASS
+dof (6),6.0,6.0,0.0,PASS
+K1-K4 (1.86),1.86,1.86,-0.0,PASS
+err K1-K4 (0.94),0.94,0.935,-0.005,PASS
+"cleaned spectra (5,047)",5047,5047.0,0,PASS
+cleaned overall (1.74),1.74,1.744,0.004,PASS
+Teff axis min (0.0),0.0,0.0,0.0,PASS
+Teff axis max (4.34 -> 4.3),4.34,4.337,-0.003,PASS
+"boundary n at 3,950 K (392)",392,392.0,0,PASS
+"boundary act at 3,950 K (4.34)",4.34,4.337,-0.003,PASS
+"boundary n at 4,050 K (235)",235,235.0,0,PASS
+"boundary act at 4,050 K (1.70)",1.7,1.702,0.002,PASS
+"boundary n at 4,150 K (283)",283,283.0,0,PASS
+"boundary act at 4,150 K (2.12)",2.12,2.12,0.0,PASS
+cleaned overall act (1.7),1.7,1.744,0.044,PASS
+S/N matched max shift (bound 1.9 pp),<=1.9,0.99,,PASS
+M spectrum dM0,7.0,7.044,0.044,PASS
+M spectrum dM1,8.1,8.065,-0.035,PASS
+M spectrum dM2,13.6,13.593,-0.007,PASS
+M spectrum dM3,16.4,16.396,-0.004,PASS
+M spectrum dM4,20.9,20.863,-0.037,PASS
+M spectrum dM5,58.0,58.008,0.008,PASS
+M spectrum dM6,71.3,71.325,0.025,PASS
+M spectrum dM7,69.9,69.948,0.048,PASS
+M spectrum dM8,57.3,57.277,-0.023,PASS
+detectable dM7 (40.2),40.2,40.166,-0.034,PASS
+detectable dM8 (30.6),30.6,30.588,-0.012,PASS
+S/N 6-20 keeps dM7 (89),89,89.0,0,PASS
+S/N 6-20 keeps dM8 (7),7,7.0,0,PASS
+K bins Spearman rho (-0.11),-0.11,-0.107,0.003,PASS
+K bins Spearman p (0.69),0.69,0.692,0.002,PASS

@@ -1,0 +1,127 @@
+﻿# §4.1 的全部量：逐亚型比例与星数、合并降幅、速率效应与逐型贡献、内层权重、远区占比、
+#          亚型占比、Teff 与 S/N 漂移、组成归一的合并值（compshape *）、200-400→400-600 的拆分（ss *）
+# 样本归属：逐型比例/0.76/2.41/27.8%/2.1%/dM4 Teff 序列/compshape/ss → 637,973；S/N、星数、dM2/dM5 端点 → 639,711
+# 生成：复现流程/复现流程4.1/step1_build.py（代码/repro_4p1_build.py）
+item,value
+dM0 pct in100,12.972
+dM0 n in100,35091.0
+dM0 pct m200,5.0476
+dM0 n m200,65497.0
+dM0 pct m400,5.2666
+dM0 n m400,58235.0
+dM1 pct in100,14.4087
+dM1 n in100,33570.0
+dM1 pct m200,5.599
+dM1 n m200,56957.0
+dM1 pct m400,7.0144
+dM1 n m400,28570.0
+dM2 pct in100,20.832
+dM2 n in100,31010.0
+dM2 pct m200,9.2469
+dM2 n m200,36704.0
+dM2 pct m400,13.0342
+dM2 n m400,7956.0
+dM3 pct in100,23.566
+dM3 n in100,11402.0
+dM3 pct m200,11.6217
+dM3 n m200,10162.0
+dM3 pct m400,15.6752
+dM3 n m400,1244.0
+dM4 pct in100,25.1221
+dM4 n in100,49148.0
+dM4 pct m200,14.5261
+dM4 n m200,19076.0
+dM4 pct m400,20.6604
+dM4 n m400,2120.0
+dM5 pct in100,64.5656
+dM5 n in100,13501.0
+dM5 pct m200,36.3775
+dM5 n m200,2617.0
+dM5 pct m400,33.8521
+dM5 n m400,514.0
+dM6 pct in100,74.8131
+dM6 n in100,2942.0
+dM6 pct m200,52.6316
+dM6 n m200,114.0
+dM6 pct m400,33.3333
+dM6 n m400,24.0
+merged 200-400,7.7786
+merged >400,7.0239
+merged drop,0.7547
+rate effect,2.4061
+dM4 inner weight,27.7472
+dM4 share of >400,2.1481
+cell dM4,1.7021
+cell dM0,0.0434
+cell dM1,0.2683
+cell dM2,0.663
+cell dM5,-0.1925
+cell dM3,0.2609
+cell dM6,-0.3205
+cell dM7,-0.0167
+cell dM8,-0.0028
+cell dM9,0.001
+compshape c200,12.2111
+compshape c400,13.9828
+compshape c600,18.0448
+compshape cFar,14.6172
+compshape cIn,23.8065
+ss rate,1.3341
+ss comp,-1.6127
+ss inter,-0.8489
+ss total,-1.1275
+dM0 share 200-400,34.2595
+dM5 share 200-400,1.3689
+dM0 share 400-600,54.0425
+dM5 share 400-600,0.558
+teff near dM1,3670.41
+teff near dM2,3516.84
+teff near dM4,3350.82
+teffA dM2 in100,3516.84
+teffB dM2 in100,3516.895
+snr dM2 in100,20.25
+nB dM2 in100,31034.0
+teffA dM2 m200,3564.84
+teffB dM2 m200,3564.84
+snr dM2 m200,12.76
+nB dM2 m200,36731.0
+teffA dM2 m400,3600.585
+teffB dM2 m400,3600.48
+snr dM2 m400,9.37
+nB dM2 m400,6989.0
+teffA dM2 m600,3623.6
+teffB dM2 m600,3622.24
+snr dM2 m600,7.03
+nB dM2 m600,1014.0
+teffA dM4 in100,3350.82
+teffB dM4 in100,3350.875
+snr dM4 in100,16.84
+nB dM4 in100,49178.0
+teffA dM4 m200,3420.9
+teffB dM4 m200,3420.98
+snr dM4 m200,8.65
+nB dM4 m200,19112.0
+teffA dM4 m400,3506.28
+teffB dM4 m400,3505.7
+snr dM4 m400,4.97
+nB dM4 m400,1879.0
+teffA dM4 m600,3546.39
+teffB dM4 m600,3516.37
+snr dM4 m600,2.84
+nB dM4 m600,324.0
+teffA dM5 in100,3214.73
+teffB dM5 in100,3214.83
+snr dM5 in100,8.66
+nB dM5 in100,13527.0
+teffA dM5 m200,3381.8
+teffB dM5 m200,3380.51
+snr dM5 m200,3.41
+nB dM5 m200,2645.0
+teffA dM5 m400,3480.865
+teffB dM5 m400,3471.08
+snr dM5 m400,2.57
+nB dM5 m400,421.0
+teffA dM5 m600,3482.97
+teffB dM5 m600,3353.58
+snr dM5 m600,2.45
+nB dM5 m600,143.0

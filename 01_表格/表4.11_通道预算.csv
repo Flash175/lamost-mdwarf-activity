@@ -1,0 +1,27 @@
+﻿channel,item,value,unit,note
+sample,N (all dM0-dM9),637973.0,stars,"637,973 星样本"
+sample,N (dM0-dM6),637352.0,stars,亚型分解只用 dM0-dM6
+RUWE,decline baseline,16.028,pp,0<|Z|<=100 vs 200<|Z|<=400
+RUWE,RUWE<1.2 removed,4.3,per cent,"终样本_双星检验 n = 610,537"
+RUWE,decline RUWE<1.2,15.794,pp,终样本_双星检验 15.794
+RUWE,RUWE<1.1 removed,13.57,per cent,去除 13.6%
+RUWE,decline RUWE<1.1,15.571,pp,终样本_双星检验 15.571
+RUWE,subtype decline dM0,7.924,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM1,8.81,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM2,11.585,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM3,11.944,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM4,10.596,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM5,28.188,pp,dM0-dM6 各亚型基线
+RUWE,subtype decline dM6,22.181,pp,dM0-dM6 各亚型基线
+RV,multi-epoch with sigma_rv<20,131183.0,stars,20.6 per cent
+RV,flagged chi2_red>3,70068.0,stars,53.4 per cent of multi-epoch
+RV,flagged ptp>10 & >5 err,33673.0,stars,25.7 per cent of multi-epoch
+RV,union flagged,70660.0,stars,"11.08 per cent of 637,973"
+RV,decline after removal,15.932,pp,baseline 16.028
+Ro x [Fe/H],periodic stars with mh,2984.0,stars,of 3340
+Ro x [Fe/H],median mh error,0.11,dex,
+Ro x [Fe/H],precision-weighted mean dbeta,0.0104,dex^-1,+- 0.166
+Ro x [Fe/H],dbeta dM0,-0.079,dex^-1,"+- 0.254, 768 stars"
+Ro x [Fe/H],dbeta dM1,0.22,dex^-1,"+- 0.309, 540 stars"
+Ro x [Fe/H],dbeta dM2,-0.273,dex^-1,"+- 0.460, 515 stars"
+Ro x [Fe/H],dbeta dM4,0.105,dex^-1,"+- 0.422, 643 stars"

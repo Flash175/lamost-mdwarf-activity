@@ -1,0 +1,8 @@
+﻿item,value
+n stars with a usable parallax,637621.0
+median relative distance error (per cent),2.3431
+16th percentile (per cent),0.7553
+84th percentile (per cent),5.5195
+95th percentile (per cent),8.5533
+worst case at the plx/err>5 cut (per cent),20.0
+fraction above 10 per cent,0.028760031429328706

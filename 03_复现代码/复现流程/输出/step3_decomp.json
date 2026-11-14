@@ -1,0 +1,22 @@
+{
+  "100-200": {
+    "observed": 10.9219,
+    "explained_pp": 3.405,
+    "explained_pct": 31.18,
+    "unexplained_pp": 7.5169,
+    "unexplained_pct": 68.82
+  },
+  "200-400": {
+    "observed": 16.0862,
+    "explained_pp": 6.156,
+    "explained_pct": 38.27,
+    "unexplained_pp": 9.9303,
+    "unexplained_pct": 61.73
+  },
+  "shift_share_200-400>400-600": {
+    "rate": 1.3329715022038158,
+    "comp": -1.6133703816636835,
+    "inter": -0.8495750208800594,
+    "total": -1.1299739003399272
+  }
+}

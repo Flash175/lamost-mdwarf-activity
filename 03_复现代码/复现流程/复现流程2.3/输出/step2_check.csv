@@ -1,0 +1,35 @@
+﻿item,expected,computed,status,note
+6D far n,316.0,316.0,PASS,
+6D far active,61.0,61.0,PASS,
+6D far active S/N<3,34.0,34.0,PASS,
+6D far active logg sentinel,19.0,19.0,PASS,
+6D far active genuine logg<3.5,1.0,1.0,PASS,
+6D far active median G,14.0,13.981269,PASS,
+  ... of S/N<3 subset,14.2,14.146594499999999,PASS,data median 14.147 -> paper 14.2 (double rounding)
+  ... of sentinel subset,13.8,13.765083,PASS,data median 13.765
+6D far M_G<6 (all),290.0,290.0,PASS,
+6D far M_G<6 (active),57.0,57.0,PASS,
+6D far inactive,255.0,255.0,PASS,
+6D far M_G<6 (inactive),233.0,233.0,PASS,
+6D far median M_G (bin),3.2,3.2311632419911884,PASS,
+  ... of the 290 bright,2.9,2.898209003589767,PASS,
+6D far median distance /kpc,1.3,1.3,PASS,
+6D far after cut (n),26.0,26.0,PASS,
+6D far after cut (active),4.0,4.0,PASS,
+2D far n (post cut),98692.0,98692.0,PASS,
+2D far n_logg_valid,96870.0,96870.0,PASS,
+2D far genuine logg<3.5,15.0,15.0,PASS,
+2D far logg sentinel,1822.0,1822.0,PASS,
+2D logg median 400-600,4.642,4.642,PASS,
+2D logg median 600-1000,4.608,4.608,PASS,
+2D logg median >1000,4.585,4.585,PASS,
+2D far n before cut,99684.0,99684.0,PASS,
+2D far bright objects,992.0,992.0,PASS,
+2D far bright fraction %,1.0,1.0,PASS,
+2D far active % before,7.11,7.11,PASS,
+2D far active % after (all 992 removed),7.02,7.02,PASS,
+>1000 pc bright objects,369.0,369.0,PASS,
+>1000 pc n before cut,1600.0,1600.0,PASS,
+Gaia RV coverage G=12-14,97.0,97.236,PASS,§2.3 两处 / §4.5 / §4.13 同值
+Gaia RV coverage G=14-16,53.0,53.045,PASS,同上
+Gaia RV coverage G=16-18,0.003,0.0031,PASS,同上

@@ -1,0 +1,5 @@
+﻿# §3.7 的清理样本汇总：去重 759,607（14.35%）→ ruwe<1.4 642,596（13.53%）
+# 落进 Teff 箱的 M 星 633,213；箱外 9,383 颗全部 Teff<3,100 K；高于 4,150 K 的 M 星为 0
+# 生成：复现流程/复现流程3.6/step3_teffaxis.py（代码/repro_3p6_teffaxis.py）
+n_dup,pct_dup,n_clean,pct_clean,n_M_in_bins,n_M_below3100,n_M_above4150,n_bins_K,n_bins_M,k_total
+759607,14.351,642596,13.53,633213,9383,0,16,11,5047

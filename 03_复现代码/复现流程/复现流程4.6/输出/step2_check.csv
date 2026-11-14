@@ -1,0 +1,76 @@
+﻿item,body,computed,diff,status
+dM6 active fraction (72.9),72.9,72.868,-0.032,PASS
+dM6 Wilson lo (71.4),71.4,71.407,0.007,PASS
+dM6 Wilson hi (74.3),74.3,74.282,-0.018,PASS
+dM7 active fraction (74.7),74.7,74.741,0.041,PASS
+dM7 Wilson lo (70.7),70.7,70.681,-0.019,PASS
+dM7 Wilson hi (78.4),78.4,78.411,0.011,PASS
+dM8 active fraction (65.9),65.9,65.882,-0.018,PASS
+dM8 Wilson lo (55.3),55.3,55.313,0.013,PASS
+dM8 Wilson hi (75.1),75.1,75.078,-0.022,PASS
+Wilson intervals dM6 vs dM7 overlap,True,True,,PASS
+Wilson intervals dM7 vs dM8 overlap,True,True,,PASS
+detectable fraction dM6 (63.9),63.9,63.934,0.034,PASS
+detectable fraction dM8 (30.6),30.6,30.588,-0.012,PASS
+matched S/N 3-6 dM6 (73.6),73.6,73.645,0.045,PASS
+matched S/N 3-6 dM7 (76.0),76.0,76.033,0.033,PASS
+matched S/N 6-12 dM6 (71.9),71.9,71.864,-0.036,PASS
+matched S/N 6-12 dM7 (68.9),68.9,68.852,-0.048,PASS
+matched S/N 6-20 dM6 (73.4),73.4,73.409,0.009,PASS
+matched S/N 6-20 dM7 (75.3),75.3,75.281,-0.019,PASS
+dM8 survivors S/N 3-6 (15),15,15,0.0,PASS
+dM8 survivors S/N 6-12 (6),6,6,0.0,PASS
+dM8 survivors S/N 6-20 (7),7,7,0.0,PASS
+dM8 survivors lower bound (6),6.0,6.0,0.0,PASS
+dM8 survivors upper bound (15),15.0,15.0,0.0,PASS
+"criterion-3 archived spectra (2,498)",2498,2498,0.0,PASS
+"criterion-3 active spectra (2,255)",2255,2255,0.0,PASS
+criterion-3 active failures (437),437,437,0.0,PASS
+criterion-3 failure rate (19.4 %),19.4,19.3792,-0.0208,PASS
+criterion-3 inactive spectra (243),243,243,0.0,PASS
+inactive spectra passing (18.9 %),18.9,18.93,0.03,PASS
+"criterion-3 draw (5,999)",5999,5999,0.0,PASS
+criterion-3 failure <100 pc (13.1),13.1,13.149,0.049,PASS
+criterion-3 failure 100-200 pc (22.2),22.2,22.2141,0.0141,PASS
+criterion-3 failure 200-400 pc (36.4),36.4,36.3946,-0.0054,PASS
+criterion-3 failure >400 pc (36.8),36.8,36.8421,0.0421,PASS
+criterion-3 failure dM0 (19.7),19.7,19.6629,-0.0371,PASS
+criterion-3 failure dM1 (26.4),26.4,26.361,-0.039,PASS
+criterion-3 failure dM2 (17.8),17.8,17.8218,0.0218,PASS
+criterion-3 failure dM3 (26.0),26.0,26.0274,0.0274,PASS
+criterion-3 failure dM4 (19.9),19.9,19.9295,0.0295,PASS
+criterion-3 failure dM5 (11.8),11.8,11.7816,-0.0184,PASS
+criterion-3 failure dM6 (13.2),13.2,13.1579,-0.0421,PASS
+"recomputed 2D sample (637,973)",637973,637973,0.0,PASS
+"recomputed n dM5 (22,932)",22932,22932,0.0,PASS
+"recomputed n dM6 (3,671)",3671,3671,0.0,PASS
+recomputed n dM7 (483),483,483,0.0,PASS
+recomputed n dM8 (85),85,85,0.0,PASS
+recomputed fraction dM6 (72.9),72.9,72.8684,-0.0316,PASS
+recomputed fraction dM7 (74.7),74.7,74.7412,0.0412,PASS
+recomputed fraction dM8 (65.9),65.9,65.8824,-0.0176,PASS
+recomputed Wilson lo dM6 (71.4),71.4,71.4067,0.0067,PASS
+recomputed Wilson hi dM6 (74.3),74.3,74.2823,-0.0177,PASS
+recomputed Wilson lo dM7 (70.7),70.7,70.6814,-0.0186,PASS
+recomputed Wilson hi dM7 (78.4),78.4,78.4106,0.0106,PASS
+recomputed Wilson lo dM8 (55.3),55.3,55.3129,0.0129,PASS
+recomputed Wilson hi dM8 (75.1),75.1,75.0782,-0.0218,PASS
+recomputed detectable fraction dM5 (72.9),72.9,72.8545,-0.0455,PASS
+recomputed detectable fraction dM6 (63.9),63.9,63.9335,0.0335,PASS
+recomputed detectable fraction dM7 (40.2),40.2,40.1656,-0.0344,PASS
+recomputed detectable fraction dM8 (30.6),30.6,30.5882,-0.0118,PASS
+"pass_c3 equals peak>3*rms (mismatches, archive)",0,0,0.0,PASS
+"pass_c3 equals peak>3*rms (mismatches, draw)",0,0,0.0,PASS
+failure rate by rule (19.4 %),19.4,19.3792,-0.0208,PASS
+|Z| failure by rule <100 (13.1),13.1,13.149,0.049,PASS
+|Z| failure by rule 100-200 (22.2),22.2,22.2141,0.0141,PASS
+|Z| failure by rule 200-400 (36.4),36.4,36.3946,-0.0054,PASS
+|Z| failure by rule >400 (36.8),36.8,36.8421,0.0421,PASS
+subtype failure by rule dM0 (19.7),19.7,19.6629,-0.0371,PASS
+subtype failure by rule dM1 (26.4),26.4,26.361,-0.039,PASS
+subtype failure by rule dM2 (17.8),17.8,17.8218,0.0218,PASS
+subtype failure by rule dM3 (26.0),26.0,26.0274,0.0274,PASS
+subtype failure by rule dM4 (19.9),19.9,19.9295,0.0295,PASS
+subtype failure by rule dM5 (11.8),11.8,11.7816,-0.0184,PASS
+subtype failure by rule dM6 (13.2),13.2,13.1579,-0.0421,PASS
+inactive passing by rule (18.9 %),18.9,18.93,0.03,PASS

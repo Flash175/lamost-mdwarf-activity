@@ -1,0 +1,3 @@
+﻿panel,n_total,n_used,n_unsat,beta,intercept,ro_min,ro_max
+dM0-dM3,2083,2083,819,-0.8901,-5.5317,0.0053,2.1107
+dM4-dM6,1245,1245,187,-0.8225,-5.7304,0.002,1.324

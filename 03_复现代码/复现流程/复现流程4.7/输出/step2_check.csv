@@ -1,0 +1,48 @@
+﻿item,body,computed,diff,status
+median |z| low (33 pc),33.0,32.666,-0.334,PASS
+median |z| high (156 pc),156.0,156.307,0.307,PASS
+beta low (-0.901),-0.901,-0.902,-0.001,PASS
+err beta low (0.117),0.117,0.117,0.0,PASS
+beta high (-0.864),-0.864,-0.864,0.0,PASS
+err beta high (0.133),0.133,0.13,-0.003,PASS
+delta beta high - low (+0.037),0.037,0.038,0.001,PASS
+err delta beta (0.177),0.177,0.1749,-0.0021,PASS
+significance (0.21 sigma),0.21,0.2173,0.0073,PASS
+two-sigma bound (0.39),0.39,0.3878,-0.0022,PASS
+95 per cent upper limit (0.38),0.38,0.3808,0.0008,PASS
+argmin Ro_sat (0.132),0.132,0.1322,0.0002,PASS
+1 sigma range lower (0.092),0.092,0.0923,0.0003,PASS
+"1 sigma range upper, contiguous (0.154)",0.154,0.1535,-0.0005,PASS
+isolated grid point at 1 sigma (0.160),0.16,0.1597,-0.0003,PASS
+1 per cent range lower (0.032),0.032,0.0322,0.0002,PASS
+1 per cent range upper (0.252),0.252,0.2521,0.0001,PASS
+0.5 per cent range lower (0.065),0.065,0.0655,0.0005,PASS
+0.5 per cent range upper (0.212),0.212,0.2124,0.0004,PASS
+"gap depth in DeltaRSS (1.24 archival, 1.21 on this grid)",1.241,1.2071,-0.0339,PASS
+gap deepest break (0.1577),0.1577,0.1569,-0.0008,PASS
+"gap stars in (0.155, 0.160] (29)",29.0,29.0,0.0,PASS
+gap stars dM0 (9),9.0,9.0,0.0,PASS
+gap stars dM1 (9),9.0,9.0,0.0,PASS
+gap stars dM2 (5),5.0,5.0,0.0,PASS
+gap stars dM4 (6),6.0,6.0,0.0,PASS
+beta M0-M3 (-0.890),-0.89,-0.89,0.0,PASS
+err M0-M3 (0.093),0.093,0.093,0.0,PASS
+beta M4-M6 (-0.822),-0.822,-0.822,0.0,PASS
+err M4-M6 (0.178),0.178,0.175,-0.003,PASS
+panel dbeta (0.068),0.068,0.068,0.0,PASS
+panel dbeta significance (0.34 sigma),0.34,0.35,0.01,PASS
+"2x2 free intercept, free break (+0.05)",0.05,0.05,0.0,PASS
+"2x2 free intercept, free break (0.2 sigma)",0.2,0.2,0.0,PASS
+"2x2 anchored, fixed break (-0.588)",-0.588,-0.588,0.0,PASS
+"2x2 anchored, fixed break (4.1 sigma)",4.1,4.08,-0.02,PASS
+"2x2 anchored, free break (+0.267)",0.267,0.267,0.0,PASS
+"2x2 anchored, free break (1.3 sigma)",1.3,1.29,-0.01,PASS
+tau_c ratio Wright/Li (1.4),1.4,1.402,0.002,PASS
+Ro_sat under +0.31 (0.069),0.069,0.0696,0.0006,PASS
+halves dbeta under +0.31 (-0.22),-0.22,-0.2217,-0.0017,PASS
+halves significance under +0.31 (0.9 sigma),0.93,0.9261,-0.0039,PASS
+panel dbeta under +0.31 (0.34),0.34,0.3415,0.0015,PASS
+halves dbeta under -0.30 (+0.038),0.038,0.0379,-0.0001,PASS
+periodic subsample below 0.75 A (21.8 %),21.8,21.8263,0.0263,PASS
+EW median offset vs parent (2.5 A),2.5,2.4996,-0.0004,PASS
+"G offset vs parent (-1.4 mag, i.e. brighter)",-1.4,-1.3586,0.0414,PASS

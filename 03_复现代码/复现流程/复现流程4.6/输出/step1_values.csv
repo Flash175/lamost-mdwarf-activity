@@ -1,0 +1,79 @@
+﻿item,value
+frac dM6,72.868
+lo dM6,71.407
+hi dM6,74.282
+n dM6,3671.0
+frac dM7,74.741
+lo dM7,70.681
+hi dM7,78.411
+n dM7,483.0
+frac dM8,65.882
+lo dM8,55.313
+hi dM8,75.078
+n dM8,85.0
+detect dM6,63.934
+detect dM8,30.588
+matched 3-6 dM6,73.645
+matched 3-6 dM7,76.033
+matched n 3-6 dM8,15.0
+matched 6-12 dM6,71.864
+matched 6-12 dM7,68.852
+matched n 6-12 dM8,6.0
+matched 6-20 dM6,73.409
+matched 6-20 dM7,75.281
+matched n 6-20 dM8,7.0
+matched n dM8 min,6.0
+matched n dM8 max,15.0
+overlap 6-7,1.0
+overlap 7-8,1.0
+c3 n sample,2498.0
+c3 n active,2255.0
+c3 n fail,437.0
+c3 fail pct,19.379157
+c3 n inactive,243.0
+c3 inactive pass pct,18.930041
+c3 zb n,5999.0
+c3 zb fail <100,13.149047
+c3 zb fail 100-200,22.21413
+c3 zb fail 200-400,36.394558
+c3 zb fail >400,36.842105
+c3 sub fail dM0,19.662921
+c3 sub fail dM1,26.361032
+c3 sub fail dM2,17.821782
+c3 sub fail dM3,26.027397
+c3 sub fail dM4,19.929453
+c3 sub fail dM5,11.781609
+c3 sub fail dM6,13.157895
+re n 2D,637973.0
+re n dM6,3671.0
+re frac dM6,72.868428
+re lo dM6,71.406704
+re hi dM6,74.28234
+re detect dM6,63.933533
+re n dM7,483.0
+re frac dM7,74.741201
+re lo dM7,70.681381
+re hi dM7,78.410562
+re detect dM7,40.165631
+re n dM8,85.0
+re frac dM8,65.882353
+re lo dM8,55.31294
+re hi dM8,75.078228
+re detect dM8,30.588235
+re n dM5,22932.0
+re detect dM5,72.854526
+c3 rule mismatch A,0.0
+c3 rule mismatch B,0.0
+c3 fail pct by rule,19.379157
+c3 zb fail rule <100,13.149047
+c3 zb fail rule 100-200,22.21413
+c3 zb fail rule 200-400,36.394558
+c3 zb fail rule >400,36.842105
+c3 sub fail rule dM0,19.662921
+c3 sub fail rule dM1,26.361032
+c3 sub fail rule dM2,17.821782
+c3 sub fail rule dM3,26.027397
+c3 sub fail rule dM4,19.929453
+c3 sub fail rule dM5,11.781609
+c3 sub fail rule dM6,13.157895
+c3 inactive pass rule pct,18.930041

@@ -1,0 +1,38 @@
+﻿item,body,computed,diff,status
+dM5 n,22932,22932,0,PASS
+dM5 active pct,57.0,56.977,-0.023,PASS
+dM5 Wilson lo,56.3,56.335,0.035,PASS
+dM5 Wilson hi,57.6,57.617,0.017,PASS
+dM6 n,3671,3671,0,PASS
+dM6 active pct,72.9,72.868,-0.032,PASS
+dM6 Wilson lo,71.4,71.407,0.007,PASS
+dM6 Wilson hi,74.3,74.282,-0.018,PASS
+dM7 n,483,483,0,PASS
+dM7 active pct,74.7,74.741,0.041,PASS
+dM7 Wilson lo,70.7,70.681,-0.019,PASS
+dM7 Wilson hi,78.4,78.411,0.011,PASS
+dM8 n,85,85,0,PASS
+dM8 active pct,65.9,65.882,-0.018,PASS
+dM8 Wilson lo,55.3,55.313,0.013,PASS
+dM8 Wilson hi,75.1,75.078,-0.022,PASS
+detect dM8,30.6,30.588,-0.012,PASS
+detect dM5,72.9,72.855,-0.045,PASS
+detect dM6,63.9,63.934,0.034,PASS
+activity rises dM5->dM6,True,1.0,0.0,PASS
+detection falls dM5->dM6,True,1.0,0.0,PASS
+matched 3-6 dM6,73.6,73.645,0.045,PASS
+matched 3-6 dM7,76.0,76.033,0.033,PASS
+matched 6-12 dM6,71.9,71.864,-0.036,PASS
+matched 6-12 dM7,68.9,68.852,-0.048,PASS
+matched 6-20 dM6,73.4,73.409,0.009,PASS
+matched 6-20 dM7,75.3,75.281,-0.019,PASS
+dM8 matched 3-6,15,15,0,PASS
+dM8 matched 6-12,6,6,0,PASS
+dM8 matched 6-20,7,7,0,PASS
+dM8 matched min (6),6,6,0,PASS
+dM8 matched max (15),15,15,0,PASS
+overlap dM6 vs dM7 (all),True,True,,PASS
+overlap S/N 3-6,True,True,,PASS
+overlap S/N 6-12,True,True,,PASS
+overlap S/N 6-20,True,True,,PASS
+rise z (dM5->dM6) >= 10,10.0,18.19,8.19,PASS

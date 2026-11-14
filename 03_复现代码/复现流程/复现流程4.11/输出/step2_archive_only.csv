@@ -1,0 +1,4 @@
+﻿item,value,source,note
+multi-epoch: raw rebuild vs archived table,131331,step1b_rv_chain.py vs 数据/RV变星_剔除检验.csv,"原始重跑得 131,331（正文取此值）；归档表 131,183 为去重后口径，差 148 = 0.11 per cent"
+periodic stars with usable [Fe/H]: chosen cut vs old value,2984,数据/图5_逐星样本_严格3340行_⑤.csv + 金属度_清洁样本_637973.csv,"按 §4.10 判据(|err|<=0.25, -2<=m_h<=0.6)得 2,984；正文原写 2,979，5 种邻域变体(2,814-3,145)均不得 2,979"
+union listed vs removed inside the sample,27,数据/RV变星_SB1候选_多历元.csv / step1b,"清单与原始重算并集均为 70,660，其中 27 个 uid 不在 637,973 星样本内，故实际剔除 70,633"

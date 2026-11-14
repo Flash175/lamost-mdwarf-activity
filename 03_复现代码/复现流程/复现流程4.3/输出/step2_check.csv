@@ -1,0 +1,64 @@
+﻿item,body,computed,diff,status
+"sample (470,548)",470548.0,470548.0,0.0,PASS
+dM0-dM6 share (99.9 %),99.9,99.9063,0.0063,PASS
+Shapley sum equals full-model difference (1e-9),1e-09,0.0,,PASS
+observed decline 100-200 (10.92),10.92,10.9219,0.0019,PASS
+observed decline 200-400 (16.09),16.09,16.0862,-0.0038,PASS
+full-sample decline 100-200 (10.90),10.9,10.904,0.004,PASS
+full-sample decline 200-400 (16.03),16.03,16.0279,-0.0021,PASS
+F1 100-200 (1.78),1.78,1.782,0.002,PASS
+F1 200-400 (2.63),2.63,2.6278,-0.0022,PASS
+F1 share 100-200 (16.3),16.3,16.3161,0.0161,PASS
+F1 share 200-400 (16.3),16.3,16.3355,0.0355,PASS
+F2 100-200 (0.86),0.86,0.8642,0.0042,PASS
+F2 200-400 (1.99),1.99,1.9926,0.0026,PASS
+F2 share 100-200 (7.9),7.9,7.9124,0.0124,PASS
+F2 share 200-400 (12.4),12.4,12.3872,-0.0128,PASS
+F3 100-200 (0.13),0.13,0.1296,-0.0004,PASS
+F3 200-400 (0.32),0.32,0.3189,-0.0011,PASS
+F3 share 100-200 (1.2),1.2,1.1866,-0.0134,PASS
+F3 share 200-400 (2.0),2.0,1.9822,-0.0178,PASS
+F4 100-200 (0.05),0.05,0.0485,-0.0015,PASS
+F4 200-400 (0.16),0.16,0.1565,-0.0035,PASS
+F4 share 100-200 (0.4),0.4,0.4437,0.0437,PASS
+F4 share 200-400 (1.0),1.0,0.9729,-0.0271,PASS
+log g and [Fe/H] at or below 0.32 pp,0.32,0.3189,,PASS
+F5 100-200 (-0.35),-0.35,-0.3455,0.0045,PASS
+F5 200-400 (-0.84),-0.84,-0.8369,0.0031,PASS
+F6 100-200 (+0.93),0.93,0.9262,-0.0038,PASS
+F6 200-400 (+1.90),1.9,1.8971,-0.0029,PASS
+measurement channel 100-200 (0.58),0.58,0.5807,0.0007,PASS
+measurement channel 200-400 (1.06),1.06,1.0602,0.0002,PASS
+explained 100-200 (3.41),3.41,3.405,-0.005,PASS
+explained 200-400 (6.16),6.16,6.156,-0.004,PASS
+explained share 100-200 (31.2),31.2,31.1759,-0.0241,PASS
+explained share 200-400 (38.3),38.3,38.2686,-0.0314,PASS
+unexplained 100-200 (7.52),7.52,7.5169,-0.0031,PASS
+unexplained 200-400 (9.93),9.93,9.9303,0.0003,PASS
+unexplained share 100-200 (68.8),68.8,68.8241,0.0241,PASS
+unexplained share 200-400 (61.7),61.7,61.7314,0.0314,PASS
+matches archived table (<=0.001 pp),0.001,0.0,,PASS
+bootstrap individual entry <= 0.06 pp,0.06,0.0541,,PASS
+bootstrap explained total (0.08),0.08,0.0818,0.0018,PASS
+bootstrap unexplained (0.08),0.08,0.0818,0.0018,PASS
+R3 logit 100-200 (3.27),3.27,3.27,0.0,PASS
+R3 logit 200-400 (6.11),6.11,6.11,0.0,PASS
+R3 own recomputation within 0.2 pp of memo (100-200),0.2,0.1195,,PASS
+R3 own recomputation within 0.2 pp of memo (200-400),0.2,0.1658,,PASS
+R5 edges 125/250 explained 100-200 (4.08),4.08,4.0802,0.0002,PASS
+R5 edges 125/250 explained 200-400 (6.17),6.17,6.1734,0.0034,PASS
+R2 no distance term 100-200 (3.48),3.48,3.4765,-0.0035,PASS
+R2 no distance term 200-400 (6.30),6.3,6.2978,-0.0022,PASS
+explained-total change lower (0.05),0.05,0.046,-0.004,PASS
+explained-total change upper (0.68),0.68,0.6752,-0.0048,PASS
+explained-total change lower incl. R5 (0.02),0.02,0.0174,-0.0026,PASS
+spectral subtype term moves at most 0.4 pp,0.4,0.38,,PASS
+"high-S/N subsample (42,493)",42493.0,42493.0,0.0,PASS
+R8 F5 100-200 (+0.06),0.06,0.064,0.004,PASS
+R8 F5 200-400 (+0.23),0.23,0.2342,0.0042,PASS
+R8 F6 100-200 (+0.03),0.03,0.0318,0.0018,PASS
+R8 F6 200-400 (+0.02),0.02,0.0215,0.0015,PASS
+R8 observed 100-200 (6.00),6.0,5.997,-0.003,PASS
+R8 observed 200-400 (8.51),8.51,8.5114,0.0014,PASS
+within-subtype absorbed 100-200 (1.62),1.62,1.623,0.003,PASS
+within-subtype absorbed 200-400 (3.53),3.53,3.528,-0.002,PASS

@@ -1,0 +1,46 @@
+﻿item,body,computed,diff,status
+periodic sample,3340.0,3340.0,0.0,PASS
+panel dM0-dM3,2083.0,2083.0,0.0,PASS
+panel dM4-dM6,1245.0,1245.0,0.0,PASS
+outside either panel,12.0,12.0,0.0,PASS
+usable astrometry,3150.0,3150.0,0.0,PASS
+median |z| (72 pc),72.0,72.414,0.414,PASS
+half median |z| low (33),33.0,32.666,-0.334,PASS
+half median |z| high (156),156.0,156.307,0.307,PASS
+beta low (-0.901),-0.901,-0.902,-0.001,PASS
+err beta low (0.117),0.117,0.117,0.0,PASS
+beta high (-0.864),-0.864,-0.864,0.0,PASS
+err beta high (0.133),0.133,0.13,-0.003,PASS
+"delta beta, high - low (+0.037)",0.037,0.038,0.001,PASS
+err delta beta (0.177),0.177,0.175,-0.002,PASS
+delta beta significance (0.21 sigma),0.21,0.217,0.007,PASS
+caption beta dM0-dM3 (-0.890),-0.89,-0.89,0.0,PASS
+caption err dM0-dM3 (0.093),0.093,0.093,0.0,PASS
+caption beta dM4-dM6 (-0.822),-0.822,-0.822,0.0,PASS
+caption err dM4-dM6 (0.178),0.178,0.175,-0.003,PASS
+caption beta all (-0.857),-0.857,-0.857,0.0,PASS
+caption err all (0.083),0.083,0.079,-0.004,PASS
+caption delta beta (0.068),0.068,0.068,0.0,PASS
+caption err delta beta (0.201),0.201,0.198,-0.003,PASS
+caption delta beta significance (0.34 sigma),0.34,0.343,0.003,PASS
+tau_c median (d),33.0,32.845,-0.155,PASS
+tau_c min (d),15.5,15.624,0.124,PASS
+tau_c max (d),78.1,78.27,0.17,PASS
+Ro min,0.002,0.002,0.0,PASS
+Ro max,2.405,2.397,-0.008,PASS
+"figure panel dM0-dM3 N (2,083)",2083.0,2083.0,0.0,PASS
+"figure panel dM4-dM6 N (1,245)",1245.0,1245.0,0.0,PASS
+figure unsat points dM0-dM3 (819),819.0,819.0,0.0,PASS
+figure unsat points dM4-dM6 (187),187.0,187.0,0.0,PASS
+figure fit beta dM0-dM3,-0.89,-0.89,-0.0,PASS
+figure fit beta dM4-dM6,-0.822,-0.823,-0.001,PASS
+95 per cent upper limit on |dbeta| (0.39),0.39,0.381,-0.009,PASS
+2 sigma detection threshold (0.35),0.35,0.35,0.0,PASS
+tau variant: break with +0.31 (0.069),0.069,0.07,0.001,PASS
+tau variant: break with -0.30 (0.135),0.135,0.135,0.0,PASS
+tau variant: median tau ratio (1.40),1.4,1.402,0.002,PASS
+tau variant: dbeta with +0.31 (-0.22),-0.22,-0.222,-0.002,PASS
+tau variant: sigma with +0.31 (0.9),0.93,0.926,-0.004,PASS
+tau variant: dbeta with -0.30 (+0.038),0.038,0.038,-0.0,PASS
+tau variant: panel dbeta with +0.31 (0.34),0.34,0.342,0.002,PASS
+tau variant: both nulls below 1 sigma,1.0,0.9261,,PASS

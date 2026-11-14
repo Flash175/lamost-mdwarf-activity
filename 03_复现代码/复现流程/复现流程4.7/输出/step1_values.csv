@@ -1,0 +1,67 @@
+﻿item,value
+zmed low,32.666
+zmed high,156.307
+beta low,-0.902
+err low,0.117
+beta high,-0.864
+err high,0.13
+dbeta halves,0.038
+err dbeta,0.174897
+sigma halves,0.217271
+two sigma bound,0.387794
+upper95 bound,0.380798
+rss min,1132.189377
+ro argmin,0.132241
+range 0.1pct lo,0.092268
+range 0.1pct hi,0.166878
+range 0.5pct lo,0.065518
+range 0.5pct hi,0.212444
+range 1pct lo,0.032177
+range 1pct hi,0.25211
+range 1sig lo,0.092268
+range 1sig hi,0.159712
+range 4sig lo,0.069365
+range 4sig hi,0.192044
+gap max drss,1.207097
+gap argmax ro,0.156932
+rss at 0.1543,1133.198088
+1sig contiguous hi,0.153525
+1sig isolated hi,0.159712
+rss at 0.1598,1133.164331
+beta M0M3,-0.89
+err M0M3,0.093
+beta M4M6,-0.822
+err M4M6,0.175
+2x2 dbeta fi_fix,0.068
+2x2 sigma fi_fix,0.194
+2x2 sig fi_fix,0.35
+2x2 dbeta fi_free,0.05
+2x2 sigma fi_free,0.252
+2x2 sig fi_free,0.2
+2x2 dbeta ac_fix,-0.588
+2x2 sigma ac_fix,0.144
+2x2 sig ac_fix,4.08
+2x2 dbeta ac_free,0.267
+2x2 sigma ac_free,0.207
+2x2 sig ac_free,1.29
+2x2 bp M0M3 ac_free,0.167
+2x2 bp M4M6 ac_free,0.035
+tau ratio,1.402035
+tau ro sat wright,0.0696
+tau dbeta wright,-0.2217
+tau sigma wright,0.9261
+tau panel wright,0.3415
+tau dbeta li,0.0379
+gap n stars,29.0
+gap n dM0,9.0
+gap n dM1,9.0
+gap n dM2,5.0
+gap n dM4,6.0
+parent n uid,759607.0
+parent ew median,0.044403
+sample ew median,2.54396
+ew offset,2.499558
+parent g median,16.733305
+sample g median,15.374726
+g offset,-1.35858
+frac below 0.75,21.826347

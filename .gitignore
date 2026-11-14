@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行日志 ----
+*.log
+
+# ---- 大表 / 逐星数据（随 Dataset 归档，不进 git）----
+# 逐星样本与中间大表见 Zenodo Dataset 记录，下载后按各流程 README 摆放
+02_逐星与中间数据/
+data/*.csv
+data/**/*.csv
+data/*.zip
+data/**/*.zip
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

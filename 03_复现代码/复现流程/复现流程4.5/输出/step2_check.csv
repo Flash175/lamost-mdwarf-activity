@@ -1,0 +1,124 @@
+﻿item,body,computed,diff,status
+std diff 0-25 (6.08),6.08,6.0847,0.0047,PASS
+std se 0-25 (0.23),0.23,0.2342,0.0042,PASS
+std z 0-25 (-26.0),-26.0,-25.9787,0.0213,PASS
+mad diff 0-25 (7.82),7.82,7.8242,0.0042,PASS
+mad se 0-25 (0.62),0.62,0.6154,-0.0046,PASS
+mad z 0-25 (-12.7),-12.7,-12.715,-0.015,PASS
+std diff 25-50 (4.03),4.03,4.0273,-0.0027,PASS
+std se 25-50 (0.28),0.28,0.2832,0.0032,PASS
+std z 25-50 (-14.2),-14.2,-14.2192,-0.0192,PASS
+mad diff 25-50 (6.43),6.43,6.4329,0.0029,PASS
+mad se 25-50 (0.74),0.74,0.7441,0.0041,PASS
+mad z 25-50 (-8.6),-8.6,-8.6457,-0.0457,PASS
+std diff 50-75 (4.39),4.39,4.3912,0.0012,PASS
+std se 50-75 (0.29),0.29,0.2868,-0.0032,PASS
+std z 50-75 (-15.3),-15.3,-15.3087,-0.0087,PASS
+mad diff 50-75 (6.49),6.49,6.4946,0.0046,PASS
+mad se 50-75 (0.75),0.75,0.7535,0.0035,PASS
+mad z 50-75 (-8.6),-8.6,-8.6187,-0.0187,PASS
+zmed active 0-25 (12.1),12.1,12.0948,-0.0052,PASS
+zmed inactive 0-25 (12.4),12.4,12.4088,0.0088,PASS
+zmed difference 0-25 (0.3),0.3,0.314,0.014,PASS
+zmed active 25-50 (36.6),36.6,36.6413,0.0413,PASS
+zmed inactive 25-50 (37.7),37.7,37.7429,0.0429,PASS
+zmed difference 25-50 (1.1),1.1,1.1015,0.0015,PASS
+zmed active 50-75 (61.7),61.7,61.6576,-0.0424,PASS
+zmed inactive 50-75 (62.5),62.5,62.537,0.037,PASS
+zmed difference 50-75 (0.9),0.9,0.8794,-0.0206,PASS
+strata dM0-dM2 lower z (7.7),7.7,7.7123,0.0123,PASS
+strata dM0-dM2 upper z (14.2),14.2,14.2104,0.0104,PASS
+strata dM3-dM5 lower z (9.1),9.1,9.0724,-0.0276,PASS
+strata dM3-dM5 upper z (19.7),19.7,19.6667,-0.0333,PASS
+std z 75-100 (+1.9),1.9,1.8857,-0.0143,PASS
+std z 100-150 (+0.7),0.7,0.6651,-0.0349,PASS
+std z 150-200 (+5.9),5.9,5.9185,0.0185,PASS
+mad z 75-100 (-4.7),-4.7,-4.7287,-0.0287,PASS
+mad z 100-150 (-4.4),-4.4,-4.4026,-0.0026,PASS
+inactive svz lower (19.66),19.66,19.6624,0.0024,PASS
+inactive svz upper (21.14),21.14,21.1388,-0.0012,PASS
+inactive svz range (1.5),1.5,1.4764,-0.0236,PASS
+active fraction dM0 (9.1),9.1,9.0695,-0.0305,PASS
+active fraction dM5 (70.4),70.4,70.4288,0.0288,PASS
+active fraction factor (7.8),7.8,7.7655,-0.0345,PASS
+"6D subsample (82,518)",82518.0,82518.0,0.0,PASS
+6D inside 400 pc (99.9 %),99.9,99.943,0.043,PASS
+6D beyond 400 pc (47),47.0,47.0,0.0,PASS
+RV coverage G 12-14 (97),97.0,97.2358,0.2358,PASS
+RV coverage G 14-16 (53),53.0,53.0452,0.0452,PASS
+RV coverage G 16-18 (0.003),0.003,0.0031,0.0001,PASS
+"n active 0-25 (2,589)",2589.0,2589.0,0.0,PASS
+"n inactive 0-25 (9,425)",9425.0,9425.0,0.0,PASS
+"n active 25-50 (2,020)",2020.0,2020.0,0.0,PASS
+"n inactive 50-75 (10,326)",10326.0,10326.0,0.0,PASS
+sigma(vz) active 0-25 (13.4),13.4,13.4035,0.0035,PASS
+sigma(vz) inactive 0-25 (19.49),19.49,19.4883,-0.0017,PASS
+sigma(vz) active 25-50 (15.65),15.65,15.651,0.001,PASS
+sigma(vz) inactive 25-50 (19.68),19.68,19.6783,-0.0017,PASS
+sigma(vz) active 50-75 (15.39),15.39,15.3901,0.0001,PASS
+sigma(vz) inactive 50-75 (19.78),19.78,19.7813,0.0013,PASS
+MAD active 0-25 (8.65),8.65,8.6538,0.0038,PASS
+MAD inactive 0-25 (16.48),16.48,16.478,-0.002,PASS
+MAD active 25-50 (9.92),9.92,9.9234,0.0034,PASS
+MAD inactive 25-50 (16.36),16.36,16.3564,-0.0036,PASS
+MAD active 50-75 (10.21),10.21,10.2085,-0.0015,PASS
+MAD inactive 50-75 (16.7),16.7,16.7032,0.0032,PASS
+delta std 0-25 from dispersions (-6.08),-6.08,-6.0847,-0.0047,PASS
+delta std 25-50 from dispersions (-4.03),-4.03,-4.0273,0.0027,PASS
+delta std 50-75 from dispersions (-4.39),-4.39,-4.3912,-0.0012,PASS
+delta MAD 0-25 from dispersions (-7.82),-7.82,-7.8242,-0.0042,PASS
+delta MAD 25-50 from dispersions (-6.43),-6.43,-6.4329,-0.0029,PASS
+delta MAD 50-75 from dispersions (-6.5),-6.5,-6.4946,0.0054,PASS
+SE(std) recomputed 0-25,0.234221,0.2342,0.0,PASS
+SE(MAD) recomputed 0-25,0.615353,0.6154,0.0,PASS
+SE(std) recomputed 25-50,0.283227,0.2832,0.0,PASS
+SE(MAD) recomputed 25-50,0.74406,0.7441,0.0,PASS
+SE(std) recomputed 50-75,0.286843,0.2868,0.0,PASS
+SE(MAD) recomputed 50-75,0.753549,0.7535,0.0,PASS
+clean window 40-80 std (-3.91),-3.91,-3.9077,0.0023,PASS
+clean window 40-80 z (-16.8),-16.8,-16.7786,0.0214,PASS
+clean window 40-80 MAD (-6.02),-6.02,-6.0192,0.0008,PASS
+"recomputed 6D subsample (82,518)",82518.0,82518.0,0.0,PASS
+"recomputed n active 0-25 (2,589)",2589.0,2589.0,0.0,PASS
+recomputed sigma(vz) active 0-25 (13.4),13.4,13.4035,0.0035,PASS
+recomputed sigma(vz) inactive 0-25 (19.49),19.49,19.4883,-0.0017,PASS
+recomputed sigma(vz) active 25-50 (15.65),15.65,15.651,0.001,PASS
+recomputed sigma(vz) inactive 25-50 (19.68),19.68,19.6783,-0.0017,PASS
+recomputed sigma(vz) active 50-75 (15.39),15.39,15.3901,0.0001,PASS
+recomputed sigma(vz) inactive 50-75 (19.78),19.78,19.7813,0.0013,PASS
+recomputed MAD active 0-25 (8.65),8.65,8.6538,0.0038,PASS
+recomputed MAD inactive 0-25 (16.48),16.48,16.478,-0.002,PASS
+recomputed MAD active 25-50 (9.92),9.92,9.9234,0.0034,PASS
+recomputed MAD inactive 25-50 (16.36),16.36,16.3564,-0.0036,PASS
+recomputed MAD active 50-75 (10.21),10.21,10.2085,-0.0015,PASS
+recomputed MAD inactive 50-75 (16.7),16.7,16.7032,0.0032,PASS
+recomputed delta std 0-25 (-6.08),-6.08,-6.0847,-0.0047,PASS
+recomputed delta std 25-50 (-4.03),-4.03,-4.0273,0.0027,PASS
+recomputed delta std 50-75 (-4.39),-4.39,-4.3912,-0.0012,PASS
+recomputed delta MAD 0-25 (-7.82),-7.82,-7.8242,-0.0042,PASS
+recomputed delta MAD 25-50 (-6.43),-6.43,-6.4329,-0.0029,PASS
+recomputed delta MAD 50-75 (-6.49),-6.49,-6.4946,-0.0046,PASS
+recomputed median |z| active 0-25 (12.1),12.1,12.0948,-0.0052,PASS
+recomputed median |z| inactive 0-25 (12.4),12.4,12.4088,0.0088,PASS
+recomputed median |z| active 25-50 (36.6),36.6,36.6413,0.0413,PASS
+recomputed median |z| inactive 25-50 (37.7),37.7,37.7429,0.0429,PASS
+recomputed median |z| active 50-75 (61.7),61.7,61.6576,-0.0424,PASS
+recomputed median |z| inactive 50-75 (62.5),62.5,62.537,0.037,PASS
+recomputed z (std) 0-25 (-26.0),-26.0,-25.9787,0.0213,PASS
+recomputed z (std) 25-50 (-14.2),-14.2,-14.2192,-0.0192,PASS
+recomputed z (std) 50-75 (-15.3),-15.3,-15.3087,-0.0087,PASS
+recomputed z (MAD) 0-25 (-12.7),-12.7,-12.715,-0.015,PASS
+recomputed z (MAD) 25-50 (-8.6),-8.6,-8.6457,-0.0457,PASS
+recomputed z (MAD) 50-75 (-8.6),-8.6,-8.6187,-0.0187,PASS
+recomputed 40-80 delta std (-3.91),-3.91,-3.9077,0.0023,PASS
+recomputed 40-80 delta MAD (-6.02),-6.02,-6.0192,0.0008,PASS
+recomputed 40-80 z std (-16.8),-16.8,-16.7786,0.0214,PASS
+recomputed far z std 75-100 (+1.9),1.9,1.8857,-0.0143,PASS
+recomputed far z std 100-150 (+0.7),0.7,0.6651,-0.0349,PASS
+recomputed far z std 150-200 (+5.9),5.9,5.9185,0.0185,PASS
+recomputed far z MAD 75-100 (-4.7),-4.7,-4.7287,-0.0287,PASS
+recomputed far z MAD 100-150 (-4.4),-4.4,-4.4026,-0.0026,PASS
+median relative distance error (2.3 per cent),2.3,2.3431,0.0431,PASS
+worst case at the plx/err>5 cut (20 per cent),20.0,20.0,0.0,PASS
+95th percentile (8.6 per cent),8.6,8.5533,-0.0467,PASS
+fraction above 10 per cent (2.9 per cent),2.9,2.876,-0.024,PASS

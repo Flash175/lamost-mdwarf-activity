@@ -1,0 +1,163 @@
+﻿item,value
+n all,637973.0
+n dm0-dm6,637352.0
+decline base all,16.027938797740415
+decline base dm0-dm6,15.890028043263127
+n kept ruwe12,610537.0
+removed pct ruwe12,4.300495475513855
+decline ruwe12,15.793570009208777
+delta decline ruwe12,-0.23436878853163812
+n kept ruwe11,551389.0
+removed pct ruwe11,13.571734226997068
+decline ruwe11,15.570553381028665
+delta decline ruwe11,-0.4573854167117499
+table n base,637973.0
+table decline base,16.028
+table n ruwe12,610537.0
+table decline ruwe12,15.794
+table n ruwe11,551389.0
+table decline ruwe11,15.571
+table n rvrem,567340.0
+table decline rvrem,15.932
+rv removed count,70633.0
+rv removed pct,11.071471676701051
+sub decl base dM0,7.924427689001442
+sub decl ruwe12 dM0,7.886066373980183
+sub ddecl ruwe12 dM0,-0.038361315021258946
+sub decl ruwe11 dM0,8.065097851122479
+sub ddecl ruwe11 dM0,0.14067016212103667
+table sub decl base dM0,7.924427689001442
+table sub decl 12 dM0,7.886066373980183
+table sub decl 11 dM0,8.065097851122479
+sub decl base dM1,8.809737623063759
+sub decl ruwe12 dM1,8.789014447015406
+sub ddecl ruwe12 dM1,-0.020723176048353054
+sub decl ruwe11 dM1,8.889893233116863
+sub ddecl ruwe11 dM1,0.08015561005310445
+table sub decl base dM1,8.809737623063759
+table sub decl 12 dM1,8.789014447015406
+table sub decl 11 dM1,8.889893233116863
+sub decl base dM2,11.585041119283455
+sub decl ruwe12 dM2,11.479327905812669
+sub ddecl ruwe12 dM2,-0.10571321347078566
+sub decl ruwe11 dM2,11.598213429137125
+sub ddecl ruwe11 dM2,0.013172309853670683
+table sub decl base dM2,11.585041119283456
+table sub decl 12 dM2,11.479327905812667
+table sub decl 11 dM2,11.598213429137123
+sub decl base dM3,11.944313039132656
+sub decl ruwe12 dM3,11.660898853629318
+sub ddecl ruwe12 dM3,-0.28341418550333763
+sub decl ruwe11 dM3,11.475864529511082
+sub ddecl ruwe11 dM3,-0.4684485096215738
+table sub decl base dM3,11.944313039132656
+table sub decl 12 dM3,11.660898853629318
+table sub decl 11 dM3,11.475864529511082
+sub decl base dM4,10.59597414550781
+sub decl ruwe12 dM4,10.455895272080138
+sub ddecl ruwe12 dM4,-0.14007887342767233
+sub decl ruwe11 dM4,10.345867443326389
+sub ddecl ruwe11 dM4,-0.25010670218142117
+table sub decl base dM4,10.59597414550781
+table sub decl 12 dM4,10.455895272080138
+table sub decl 11 dM4,10.345867443326387
+sub decl base dM5,28.188056209595363
+sub decl ruwe12 dM5,27.59270248786667
+sub ddecl ruwe12 dM5,-0.5953537217286922
+sub decl ruwe11 dM5,26.479337870916343
+sub ddecl ruwe11 dM5,-1.7087183386790201
+table sub decl base dM5,28.188056209595363
+table sub decl 12 dM5,27.59270248786667
+table sub decl 11 dM5,26.479337870916343
+sub decl base dM6,22.181473397974884
+sub decl ruwe12 dM6,21.09278626977742
+sub ddecl ruwe12 dM6,-1.0886871281974635
+sub decl ruwe11 dM6,17.720311834527713
+sub ddecl ruwe11 dM6,-4.46116156344717
+table sub decl base dM6,22.181473397974884
+table sub decl 12 dM6,21.09278626977742
+table sub decl 11 dM6,17.720311834527713
+table decline base dm0-dm6,15.89002804326313
+table decline 12 dm0-dm6,15.659123336567172
+table decline 11 dm0-dm6,15.448962232986712
+max abs ddecl ruwe12,1.0886871281974635
+max abs ddecl ruwe12 dm0-dm4,0.28341418550333763
+max abs ddecl ruwe12 excl dm6,0.5953537217286922
+max abs ddecl ruwe11,4.46116156344717
+max abs ddecl ruwe11 dm0-dm4,0.4684485096215738
+max abs ddecl ruwe11 excl dm6,1.7087183386790201
+dm6 far n,114.0
+dm6 below400 n,3647.0
+dm6 far n ruwe12,110.0
+dm6 far n ruwe11,94.0
+rv union rows,70660.0
+rv file multi rows,70660.0
+flag chi2 rows,70068.0
+flag ptp rows,33673.0
+rv multi-epoch archived,131183.0
+rv baseline archived,637352.0
+flag chi2 pct,53.41240862001936
+flag ptp pct,25.668722319202946
+union pct of sample,11.075703830726379
+decline after rv removal,15.93190649550671
+delta decline rv removal,-0.09603230223370574
+sub decl rvrem dM0,7.772322074092086
+sub ddecl rvrem dM0,-0.15210561490935604
+sub decl rvrem dM1,8.753742392972521
+sub ddecl rvrem dM1,-0.05599523009123786
+sub decl rvrem dM2,11.676003805615498
+sub ddecl rvrem dM2,0.09096268633204296
+sub decl rvrem dM3,11.325650016246355
+sub ddecl rvrem dM3,-0.6186630228863006
+sub decl rvrem dM4,10.863101651356427
+sub ddecl rvrem dM4,0.26712750584861666
+sub decl rvrem dM5,28.133696899644818
+sub ddecl rvrem dM5,-0.054359309950545054
+sub decl rvrem dM6,22.068283880210494
+sub ddecl rvrem dM6,-0.11318951776438979
+max abs ddecl rvrem,0.6186630228863006
+flag pct among active all,15.221257453708548
+flag pct among inactive all,10.424646067883945
+flag pct of all all,11.071471676701051
+flag pct among active far,16.878488332997108
+flag pct among inactive far,10.166299884293396
+flag pct of all far,10.68841243023554
+period sample n,3340.0
+unsaturated dM3,20.0
+unsaturated dM5,28.0
+unsaturated dM6,3.0
+mh contrast dM0,0.247
+fit half lo dM0,167.0
+fit half hi dM0,209.0
+mh contrast dM1,0.251
+fit half lo dM1,82.0
+fit half hi dM1,138.0
+mh contrast dM2,0.183
+fit half lo dM2,73.0
+fit half hi dM2,66.0
+mh contrast dM4,0.266
+fit half lo dM4,49.0
+fit half hi dM4,77.0
+fit half min,49.0
+fit half max,209.0
+ro chi2 about mean,1.0138115366070761
+period sample with mh,2984.0
+period sample with mh pct,89.34131736526946
+period sample median mh err,0.11
+ro weighted mean dbeta,0.010438246058228927
+ro weighted mean dbeta se,0.16594329148105877
+ro weighted mean dbeta 2sigma,0.34232482902034644
+ro halves min n,257.0
+ro halves max n,385.0
+ro n dM0,768.0
+ro dbeta dM0,-0.079
+ro dbeta se dM0,0.254
+ro n dM1,540.0
+ro dbeta dM1,0.22
+ro dbeta se dM1,0.309
+ro n dM2,515.0
+ro dbeta dM2,-0.273
+ro dbeta se dM2,0.46
+ro n dM4,643.0
+ro dbeta dM4,0.105
+ro dbeta se dM4,0.422

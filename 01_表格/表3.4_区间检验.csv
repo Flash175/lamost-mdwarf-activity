@@ -1,0 +1,10 @@
+﻿# §3.4：Wilson 95% 区间的重叠检验（dM6 vs dM7、dM7 vs dM8，以及三档 S/N 匹配）
+# overlap=True 表示两区间相交；正文的 'agree within the errors' 与 'overlapping intervals in all three cases' 即指此
+# dM5->dM6 上升的两比例 z = 18.19（n=22932 与 3671）
+# 生成：复现流程/复现流程3.4/step4_overlap.py（代码/repro_3p4_overlap.py）
+selection,pair,f1,lo1,hi1,n1,f2,lo2,hi2,n2,overlap
+all,dM6 vs dM7,72.868,71.407,74.282,3671,74.741,70.681,78.411,483,True
+all,dM7 vs dM8,74.741,70.681,78.411,483,65.882,55.313,75.078,85,True
+S/N 3-6,dM6 vs dM7,73.645,70.924,76.197,1070,76.033,67.701,82.763,121,True
+S/N 6-12,dM6 vs dM7,71.864,68.691,74.832,821,68.852,56.408,79.063,61,True
+S/N 6-20,dM6 vs dM7,73.409,70.96,75.722,1320,75.281,65.398,83.072,89,True

@@ -1,0 +1,9 @@
+﻿channel,claim,printed,computed,diff,tol,status,note
+astrometric binaries (RUWE proxy),RUWE<1.1 leaves the decline unchanged: relative change (per cent),2.9,2.8537,-0.0463,0.2,PASS,绝对变化 0.46 pp，相对 2.9 per cent
+astrometric binaries (RUWE proxy),no subtype moves more than 0.3 pp (dM0-dM4),0.3,0.2834,-0.0166,0.02,PASS,
+RV-variable stars,removing 11 per cent of the sample: fraction removed,11.0,11.0715,0.0715,0.1,PASS,
+RV-variable stars,moves the decline by 0.1 pp,0.1,0.096,-0.004,0.006,PASS,
+metallicity via tau_c (Ro at fixed P),|Delta beta| <~ 0.35 between [Fe/H] halves,0.35,0.3423,-0.0077,0.01,PASS,0.0104 + 2 x 0.1659
+metallicity via tau_c (Ro at fixed P),precision-weighted mean is consistent with zero,0.0,0.0104,0.0104,0.02,PASS,chi2 = 1.0 for 3 dof
+age (not measured here),status: not tested,no age column,no age column,0.0,0.0,PASS,逐星表与周期表都没有年龄列，与本行 'not tested' 一致
+residual selection or detection,status: bounded (threshold band),Section 4.3,复现流程4.3,0.0,0.0,PASS,由 复现流程4.3 的阈值带检验覆盖，本节不重复计算

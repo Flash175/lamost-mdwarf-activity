@@ -1,0 +1,91 @@
+﻿item,value
+n 0-100,177128.0
+frac 0-100,23.806513
+zmed 0-100,55.450141
+sig lnf 0-100,0.004251
+n 100-200,170974.0
+frac 100-200,12.902547
+zmed 100-200,145.269065
+sig lnf 100-200,0.006283
+n 200-400,191179.0
+frac 200-400,7.778574
+zmed 200-400,278.555707
+sig lnf 200-400,0.007875
+a unw,-1.226168
+b unw,-0.00492
+H unw,203.23
+H se unw,260.17
+chi2 stored unw,0.02
+resid unw 0-100,0.063796
+resid over sig unw 0-100,14.836395
+resid unw 100-200,-0.106788
+resid over sig unw 100-200,16.95055
+resid unw 200-400,0.04299
+resid over sig unw 200-400,5.441788
+chi2 recomputed unw,537.05281
+a bin,-1.178273
+b bin,-0.005198
+H bin,192.39
+H se bin,1.45
+chi2 stored bin,470.0
+resid bin 0-100,0.031278
+resid over sig bin 0-100,7.273878
+resid bin 100-200,-0.114401
+resid over sig bin 100-200,18.15881
+resid bin 200-400,0.072338
+resid over sig bin 200-400,9.156768
+chi2 recomputed bin,466.49807
+perstar b,-0.004961
+perstar b se,4e-05
+perstar H,201.6
+perstar H se,1.6
+dM0 n,201622.0
+dM0 pct EW,7.0578
+dM0 pct L,6.4556
+dM0 ew at 1e4,0.8634
+dM0 gap EW-L,0.6022
+dM1 n,157205.0
+dM1 pct EW,8.4094
+dM1 pct L,7.5856
+dM1 ew at 1e4,0.8598
+dM1 gap EW-L,0.8238
+dM2 n,109103.0
+dM2 pct EW,13.567
+dM2 pct L,11.1885
+dM2 ew at 1e4,1.0355
+dM2 gap EW-L,2.3785
+dM3 n,35568.0
+dM3 pct EW,16.5036
+dM3 pct L,11.8534
+dM3 ew at 1e4,1.3549
+dM3 gap EW-L,4.6502
+dM4 n,107251.0
+dM4 pct EW,20.2693
+dM4 pct L,14.2945
+dM4 ew at 1e4,1.5701
+dM4 gap EW-L,5.9748
+dM5 n,22932.0
+dM5 pct EW,56.9771
+dM5 pct L,36.4207
+dM5 ew at 1e4,3.6512
+dM5 gap EW-L,20.5564
+dM6 n,3671.0
+dM6 pct EW,72.8684
+dM6 pct L,36.3389
+dM6 ew at 1e4,5.6977
+dM6 gap EW-L,36.5295
+dM7 n,483.0
+dM7 pct EW,74.7412
+dM7 pct L,3.1056
+dM7 ew at 1e4,19.0836
+dM7 gap EW-L,71.6356
+dM8 n,85.0
+dM8 pct EW,65.8824
+dM8 pct L,4.7059
+dM8 ew at 1e4,16.5825
+dM8 gap EW-L,61.1765
+gap monotone dM0-dM6,1.0
+gap min dM0-dM6,0.6022
+gap max dM0-dM6,36.5295
+L drop dM0,0.751
+L drop dM1,0.9886

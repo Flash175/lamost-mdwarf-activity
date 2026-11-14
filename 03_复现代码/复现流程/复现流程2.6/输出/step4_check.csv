@@ -1,0 +1,49 @@
+﻿item,expected,computed,status
+<100 n,800.0,800.0,PASS
+<100 cat Ha,35.38,35.375,PASS
+<100 local Ha,35.0,35.0,PASS
+<100 local Hb,29.13,29.125,PASS
+100-200 n,800.0,800.0,PASS
+100-200 cat Ha,18.38,18.375,PASS
+100-200 local Ha,17.88,17.875,PASS
+100-200 local Hb,15.75,15.75,PASS
+200-400 n,800.0,800.0,PASS
+200-400 cat Ha,7.38,7.375,PASS
+200-400 local Ha,7.38,7.375,PASS
+200-400 local Hb,5.75,5.75,PASS
+400-600 n,800.0,800.0,PASS
+400-600 cat Ha,5.63,5.625,PASS
+400-600 local Ha,5.0,5.0,PASS
+400-600 local Hb,3.38,3.375,PASS
+600-1000 n,800.0,800.0,PASS
+600-1000 cat Ha,6.25,6.25,PASS
+600-1000 local Ha,6.13,6.125,PASS
+600-1000 local Hb,3.75,3.75,PASS
+>1000 n,133.0,133.0,PASS
+>1000 cat Ha,18.05,18.045112781954888,PASS
+>1000 local Ha,18.05,18.045112781954888,PASS
+>1000 local Hb,4.51,4.511278195488722,PASS
+ratio 400-600/600-1000 (cat),0.9,0.9,PASS
+ratio 400-600/600-1000 (Ha),0.82,0.82,PASS
+ratio 400-600/600-1000 (Hb),0.9,0.9,PASS
+Hb deficit near plane (pp),6.3,6.25,PASS
+Hb deficit outermost (pp),13.5,13.533834586466167,PASS
+efficiency 20-40 pc (%),75.0,75.0,PASS
+efficiency >40 pc (%),85.0,85.0,PASS
+efficiency 5-10 pc (%),44.0,44.0,PASS
+both lines >3sigma (n),327.0,327.0,PASS
+Pearson r,0.77,0.77,PASS
+log-log slope,0.98,0.98,PASS
+L/Lbol <100 (%),18.58,18.58,PASS
+L/Lbol 100-200 (%),9.71,9.71,PASS
+L/Lbol 200-400 (%),5.78,5.78,PASS
+L/Lbol 400-600 (%),5.48,5.48,PASS
+L/Lbol 600-1000 (%),6.76,6.76,PASS
+L/Lbol >1000 (%),12.27,12.27,PASS
+L/Lbol decline factor,2.75,2.75,PASS
+EW decline factor,3.06,3.0663068818506165,PASS
+"EW at 1e-4, dM0 (A)",0.86,0.86,PASS
+"EW at 1e-4, dM7 (A)",19.08,19.08,PASS
+criterion gap dM0 (pp),0.6,0.6,PASS
+criterion gap dM6 (pp),36.5,36.5,PASS
+criterion gap monotone,1.0,1.0,PASS
