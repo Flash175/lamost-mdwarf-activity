@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## 数据获取
 
 - **本仓库不含逐星样本与中间大表**（体积与二次分发原因），它们打包在独立的 Zenodo Dataset 记录中：
-  - Dataset DOI：`10.5281/zenodo.24219387` — <https://doi.org/10.5281/zenodo.24219387>
+  - Dataset DOI：`10.5281/zenodo.24219386` — <https://doi.org/10.5281/zenodo.24219386>（all versions，解析到最新版本）
   - 下载解压后放到 `03_复现代码/数据/`（脚本以 `__file__` 上两级定位 `数据/`），保持其中 `原始输入/lamost/...`、`原始输入/gaia/...` 等子目录结构；各流程 README 列出了具体输入文件名。
 - **LAMOST DR13** 光谱目录（1,022,559 条谱 / 763,853 颗星）与 **Gaia DR3** 天体测量属于第三方数据，本仓库不分发。官方入口：
   - LAMOST DR13：<https://www.lamost.org/dr13/>
@@ -66,7 +66,7 @@ python run_all.py
 - **随仓库分发的表与图**：CC BY 4.0；逐星/中间大表的许可见 Dataset 记录。
 - 若使用本仓库，请引用论文与以下两条归档记录：
   - 本 Software 存档（Zenodo，由 GitHub release v1.0.0 联动生成）：DOI `10.5281/zenodo.24223745` — <https://doi.org/10.5281/zenodo.24223745>（all versions；本版本 `10.5281/zenodo.24223746` — <https://doi.org/10.5281/zenodo.24223746>）。
-  - Dataset 存档：`10.5281/zenodo.24219387` — <https://doi.org/10.5281/zenodo.24219387>。
+  - Dataset 存档（all versions）：`10.5281/zenodo.24219386` — <https://doi.org/10.5281/zenodo.24219386>（本版本 `10.5281/zenodo.24223938` — <https://doi.org/10.5281/zenodo.24223938>）。
   - 论文 DOI：待注册。
 
 ## 版本
