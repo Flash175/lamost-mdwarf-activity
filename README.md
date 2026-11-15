@@ -66,7 +66,7 @@ python run_all.py
 - **随仓库分发的表与图**：CC BY 4.0；逐星/中间大表的许可见 Dataset 记录。
 - 若使用本仓库，请引用论文与以下两条归档记录：
   - 本 Software 存档（Zenodo，由 GitHub release 联动生成）：DOI `10.5281/zenodo.24223745` — <https://doi.org/10.5281/zenodo.24223745>（all versions，解析到最新版本）。
-  - Dataset 存档（all versions）：`10.5281/zenodo.24219386` — <https://doi.org/10.5281/zenodo.24219386>（本版本 `10.5281/zenodo.24223938` — <https://doi.org/10.5281/zenodo.24223938>）。
+  - Dataset 存档（all versions，解析到最新版本）：`10.5281/zenodo.24219386` — <https://doi.org/10.5281/zenodo.24219386>。
   - 论文 DOI：待注册。
 
 ## 版本

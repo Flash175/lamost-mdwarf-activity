@@ -3,7 +3,7 @@
 脚本统一从本目录（`03_复现代码/数据/`）读取派生表与逐星表。这些文件体积较大，**未纳入代码仓库**，
 请从独立的 Zenodo Dataset 记录下载后解压到此处：
 
-- Dataset DOI：`10.5281/zenodo.24219387` — <https://doi.org/10.5281/zenodo.24219387>
+- Dataset DOI：`10.5281/zenodo.24219386` — <https://doi.org/10.5281/zenodo.24219386>（all versions，解析到最新版本）
 
 ## 目录结构
 
