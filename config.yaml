@@ -1,0 +1,11 @@
+# 复现流程配置（Snakemake）
+
+# 统一解释器：不要用 PATH 里的 python（Anaconda base 是 3.14）
+python: 'C:\Users\lingz\anaconda3\envs\py311\python.exe'
+
+# 论文里的判据参数，集中放这里，改判据不用碰脚本
+params:
+  ewha_threshold: 0.75        # Å，活动判据
+  ewha_sigma: 3.0             # σ，显著性判据
+  match_radius_arcsec: 3.0    # LAMOST × Gaia 交叉半径
+  shells_pc: [100, 200, 400, 600, 1000]
