@@ -3,7 +3,7 @@
 """step3_make_figure.py — 用本流程算出的量重画 §4.3 的瀑布图（Figure 8）。
 
 输入：输出/step1_values.csv
-输出：../figures/fig_sixfactor.png|pdf（正文 Figure 8）、输出/图8_瀑布图_数据.csv（画图用的逐条数值）
+输出：04_图件/fig_sixfactor.png|pdf（正文 Figure 8）、输出/图8_瀑布图_数据.csv（画图用的逐条数值）
 """
 import os
 import numpy as np, pandas as pd
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "输出")
-FIG = os.path.join(os.path.dirname(os.path.dirname(HERE)), "figures")
+FIG = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(HERE))), "04_图件")
 
 V = pd.read_csv(os.path.join(OUT, "step1_values.csv"), encoding="utf-8-sig").set_index("item")["value"]
 LAB = ("100-200", "200-400")
@@ -54,10 +54,15 @@ for ax, lab in zip(axes, LAB):
     ax.grid(axis="y", ls=":", lw=0.4, alpha=0.5, zorder=0)
 plt.tight_layout(pad=0.5)
 os.makedirs(FIG, exist_ok=True)
+_old = os.path.join(FIG, "fig_sixfactor.png")
+if os.path.exists(_old):  # 覆盖前留存归档图
+    import shutil
+    os.makedirs(os.path.join(FIG, "_superseded"), exist_ok=True)
+    shutil.copyfile(_old, os.path.join(FIG, "_superseded", "fig_sixfactor_before_2026.png"))
 fig.savefig(os.path.join(FIG, "fig_sixfactor.png"), dpi=300, bbox_inches="tight")
 fig.savefig(os.path.join(FIG, "fig_sixfactor.pdf"), bbox_inches="tight")
 plt.close(fig)
 T = pd.DataFrame(rows)
 T.to_csv(os.path.join(OUT, "图8_瀑布图_数据.csv"), index=False, encoding="utf-8-sig")
 print(T.head(8).to_string(index=False))
-print("  -> figures/fig_sixfactor.png")
+print("  -> 04_图件/fig_sixfactor.png")

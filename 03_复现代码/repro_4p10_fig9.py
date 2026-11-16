@@ -14,9 +14,10 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-D = os.path.join(os.path.dirname(os.path.dirname(HERE)), "数据")
-OUT = os.path.join(HERE, "输出"); os.makedirs(OUT, exist_ok=True)
+HERE = os.path.dirname(os.path.abspath(__file__))      # 03_复现代码
+D = os.path.join(HERE, "数据")
+FLOW = os.path.join(HERE, "复现流程", "复现流程4.10")
+OUT = os.path.join(FLOW, "输出"); os.makedirs(OUT, exist_ok=True)
 
 grad = pd.read_csv(os.path.join(D, "金属度_垂直梯度.csv"), encoding="utf-8-sig")
 fx = pd.read_csv(os.path.join(D, "金属度_固定Z活动率.csv"), encoding="utf-8-sig")
@@ -73,8 +74,9 @@ for _, rr in per.iterrows():
 pd.DataFrame(drawn).to_csv(os.path.join(OUT, "图9_绘图数据.csv"), index=False, encoding="utf-8-sig")
 pd.DataFrame(drawn).to_csv(os.path.join(D, "表4.10_图9绘图数据.csv"), index=False, encoding="utf-8-sig")
 
-# 与论文里实际使用的图逐像素比对（figures/fig6_metallicity.png）
-paper = os.path.join(os.path.dirname(os.path.dirname(HERE)), "figures", "fig6_metallicity.png")
+# 与论文里实际使用的图逐像素比对（04_图件/fig6_metallicity.png）
+REPO = os.path.dirname(HERE)  # 仓库根
+paper = os.path.join(REPO, "04_图件", "fig6_metallicity.png")
 regen = os.path.join(OUT, "fig9_metallicity.png")
 chk = dict(item="figure pixel comparison", value=np.nan)
 try:
@@ -87,7 +89,9 @@ try:
         d = np.asarray(ImageChops.difference(a, c)).astype(int)
         diffpx = int((d.max(axis=2) > 8).sum())
         stat = "PASS" if diffpx == 0 else "DIFF"
-    chk = dict(item="figure pixel comparison (%s, %dx%d, %d px differ >8)" % (stat, a.size[0], a.size[1], diffpx),
+    share = (100.0 * diffpx / (a.size[0] * a.size[1])) if diffpx >= 0 else float("nan")
+    chk = dict(item="figure pixel comparison (%s, %dx%d, %d px differ >8 = %.2f%%)"
+                   % (stat, a.size[0], a.size[1], diffpx, share),
                value=diffpx)
 except Exception as e:
     chk = dict(item="figure pixel comparison skipped (%s)" % type(e).__name__, value=np.nan)

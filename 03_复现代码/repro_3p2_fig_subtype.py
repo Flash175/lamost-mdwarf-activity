@@ -2,7 +2,7 @@
 """make_fig_subtype.py — 重画正文 Figure 4（近/远 |Z| x 全样本/S/N 10-30 匹配）。
 
 数据源：数据/sn_matched_by_bin_with_n.csv（与 §3.2 的多项检查同源）
-输出：figures/fig1_subtype_sn.png（覆盖；旧图存 figures/_superseded/）
+输出：04_图件/fig1_subtype_sn.png（覆盖；旧图存 04_图件/_superseded/）
 """
 import os
 import numpy as np, pandas as pd
@@ -10,10 +10,10 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(os.path.dirname(HERE))
+HERE = os.path.dirname(os.path.abspath(__file__))     # 03_复现代码
+ROOT = HERE
 D = os.path.join(ROOT, "数据")
-FIG = os.path.join(ROOT, "figures")
+FIG = os.path.join(os.path.dirname(ROOT), "04_图件")  # 仓库根/04_图件
 
 S = pd.read_csv(os.path.join(D, "sn_matched_by_bin_with_n.csv"), comment="#", encoding="utf-8-sig")
 def get(zb, sp):
@@ -41,4 +41,4 @@ if os.path.exists(old):
     import shutil
     shutil.copyfile(old, os.path.join(FIG, "_superseded", "fig1_subtype_sn_before_2026.png"))
 fig.savefig(os.path.join(FIG, "fig1_subtype_sn.png"), dpi=200); plt.close(fig)
-print("  -> figures/fig1_subtype_sn.png 已更新（旧图在 figures/_superseded/）")
+print("  -> 04_图件/fig1_subtype_sn.png 已更新（旧图在 04_图件/_superseded/）")

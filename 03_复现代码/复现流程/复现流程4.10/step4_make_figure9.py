@@ -27,7 +27,7 @@ slope = float(V["slope dex per pc"]); r = float(V["pearson r"])
 bg = float(V["beta global"]); bgs = float(V["beta global se"])
 bf = float(V["beta FE"]); bfs = float(V["beta FE se"])
 
-fig, ax = plt.subplots(1, 3, figsize=(13.4, 4.1))
+fig, ax = plt.subplots(1, 3, figsize=(13.4, 4.095))
 x = np.arange(len(grad))
 ax[0].errorbar(x, grad.mh_med, yerr=[grad.mh_med - grad.lo, grad.hi - grad.mh_med],
                fmt="o-", color="#7b3294", ms=6, capsize=3)
@@ -73,8 +73,9 @@ for _, rr in per.iterrows():
 pd.DataFrame(drawn).to_csv(os.path.join(OUT, "图9_绘图数据.csv"), index=False, encoding="utf-8-sig")
 pd.DataFrame(drawn).to_csv(os.path.join(D, "表4.10_图9绘图数据.csv"), index=False, encoding="utf-8-sig")
 
-# 与论文里实际使用的图逐像素比对（figures/fig6_metallicity.png）
-paper = os.path.join(os.path.dirname(os.path.dirname(HERE)), "figures", "fig6_metallicity.png")
+# 与论文里实际使用的图逐像素比对（04_图件/fig6_metallicity.png）
+BASE = os.path.dirname(os.path.dirname(HERE))  # 03_复现代码
+paper = os.path.join(os.path.dirname(BASE), "04_图件", "fig6_metallicity.png")  # 仓库根/04_图件
 regen = os.path.join(OUT, "fig9_metallicity.png")
 chk = dict(item="figure pixel comparison", value=np.nan)
 try:
@@ -87,7 +88,9 @@ try:
         d = np.asarray(ImageChops.difference(a, c)).astype(int)
         diffpx = int((d.max(axis=2) > 8).sum())
         stat = "PASS" if diffpx == 0 else "DIFF"
-    chk = dict(item="figure pixel comparison (%s, %dx%d, %d px differ >8)" % (stat, a.size[0], a.size[1], diffpx),
+    share = (100.0 * diffpx / (a.size[0] * a.size[1])) if diffpx >= 0 else float("nan")
+    chk = dict(item="figure pixel comparison (%s, %dx%d, %d px differ >8 = %.2f%%)"
+                   % (stat, a.size[0], a.size[1], diffpx, share),
                value=diffpx)
 except Exception as e:
     chk = dict(item="figure pixel comparison skipped (%s)" % type(e).__name__, value=np.nan)
